@@ -18,4 +18,5 @@ clang++ --std=c++1z -Wall -Wextra ../c17/xxx.cpp -o xxx
 4. For cmake build example:
 
 cmake ../examples/RectangleDemo
+
 make
