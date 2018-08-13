@@ -6,11 +6,11 @@ CComplex::~CComplex() {
     
 }
 
-CComplex CComplex::operator +(const CComplex& c) {
+CComplex CComplex::operator +(const CComplex& c) const {
     return CComplex(real + c.real, imag + c.imag);
 }
 
-CComplex CComplex::operator -(const CComplex& c) {
+CComplex CComplex::operator -(const CComplex& c) const {
     return CComplex(real - c.real, imag - c.imag);
 }
 
